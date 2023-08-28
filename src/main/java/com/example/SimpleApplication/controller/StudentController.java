@@ -35,9 +35,4 @@ public class StudentController {
         studentService.deleteStudentById(studentId);
     }
 
-    @GetMapping("/get/all")
-    public Student getAllStudent() {
-        return null;
-    }
-
 }
