@@ -35,4 +35,8 @@ public class StudentController {
         studentService.deleteStudentById(studentId);
     }
 
+    public void deletePushedCOmmit() {
+
+    }
+
 }
